@@ -3,6 +3,8 @@ package com.example.calculo_impostos.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import javax.management.relation.Role;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,7 +23,8 @@ public class Usuario {
     private String passWord;
 
     @Enumerated(EnumType.STRING)
-    
+    @Column(nullable = false)
+    private Role role;
 }
 
 
