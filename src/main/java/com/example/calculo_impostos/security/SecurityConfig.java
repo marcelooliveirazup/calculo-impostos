@@ -15,8 +15,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import com.example.calculo_impostos.calculoimpostos.repository.UsuarioRepository;
-import com.example.calculo_impostos.calculoimpostos.security.jwt.JwtAuthenticationFilter;
+import com.example.calculo_impostos.repository.UsuarioRepository;
+import com.example.calculo_impostos.security.jwt.JwtAuthenticationFilter;
 
 import lombok.RequiredArgsConstructor;
 
