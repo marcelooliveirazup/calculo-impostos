@@ -1,5 +1,8 @@
 package com.example.calculo_impostos.security;
 
+import com.example.calculo_impostos.repository.UsuarioRepository;
+import com.example.calculo_impostos.security.jwt.JwtAuthenticationFilter;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -14,9 +17,6 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-
-import com.example.calculo_impostos.repository.UsuarioRepository;
-import com.example.calculo_impostos.security.jwt.JwtAuthenticationFilter;
 
 import lombok.RequiredArgsConstructor;
 

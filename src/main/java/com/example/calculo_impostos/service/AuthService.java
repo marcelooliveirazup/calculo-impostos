@@ -3,8 +3,8 @@ package com.example.calculo_impostos.service;
 import com.example.calculo_impostos.dto.RegisterRequest;
 import com.example.calculo_impostos.dto.LoginRequest;
 import com.example.calculo_impostos.dto.AuthResponse;
-import com.example.calculo_impostos.model.Usuario;
 import com.example.calculo_impostos.model.Role;
+import com.example.calculo_impostos.model.Usuario;
 import com.example.calculo_impostos.repository.UsuarioRepository;
 import com.example.calculo_impostos.security.jwt.JwtService;
 
